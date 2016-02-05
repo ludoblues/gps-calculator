@@ -1,4 +1,9 @@
-const { EARTH_RADIUS, MIN_LAT, MAX_LAT, MIN_LNG, MAX_LNG } = require('./utils');
+const utils = require('./utils');
+const EARTH_RADIUS = utils.EARTH_RADIUS;
+const MIN_LAT = utils.MIN_LAT;
+const MAX_LAT = utils.MAX_LAT;
+const MIN_LNG = utils.MIN_LNG;
+const MAX_LNG = utils.MAX_LNG;
 const toDegrees = require('./to-degrees');
 const toRad = require('./to-rad');
 

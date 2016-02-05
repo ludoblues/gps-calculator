@@ -1,4 +1,4 @@
-const { EARTH_RADIUS } = require('./utils');
+const EARTH_RADIUS = require('./utils').EARTH_RADIUS;
 const toRad = require('./to-rad');
 
 module.exports = (a, b) => {
